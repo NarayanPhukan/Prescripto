@@ -18,15 +18,15 @@ const Navbar = () => {
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to={'/doctors'} >
-                <li className='py-1 hover:translate-y-[-8px] transition-all duration-500'>ALL DOCTORS</li>
+                <li className='py-1 hover:translate-y-[-8px] transition-all duration-700'>ALL DOCTORS</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to={'/about'} >
-                <li className='py-1 hover:translate-y-[-8px] transition-all duration-500'>ABOUT</li>
+                <li className='py-1 hover:scale-105 transition-all duration-200'>ABOUT</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to={'/contact'} >
-                <li className='py-1 hover:translate-y-[-8px] transition-all duration-500'>CONTACT</li>
+                <li className='py-1 hover:scale-105 transition-all duration-200'>CONTACT</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden  ' />
             </NavLink>
         </ul>

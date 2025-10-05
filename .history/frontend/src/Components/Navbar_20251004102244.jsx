@@ -26,7 +26,7 @@ const Navbar = () => {
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to={'/contact'} >
-                <li className='py-1 hover:translate-y-[-8px] transition-all duration-500'>CONTACT</li>
+                <li className='py-1 hover:scale-105 transition-all duration-200'>CONTACT</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden  ' />
             </NavLink>
         </ul>

@@ -29,7 +29,7 @@ const TopDoctors = () => {
                 ))
             }
         </div>
-        <button onClick={() =>{ navaigate('/doctors'); scrollTo(0,0)}} className='bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10 hover:translate-y-[-10px] transition-all duration-500 hover:bg-blue-300 cursor-pointer '>More</button>
+        <button className='bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10 hover:translate-y-[-10px] transition-all duration-500 hover:bg-blue-300 cursor-pointer '>More</button>
     </div>
   )
 }
