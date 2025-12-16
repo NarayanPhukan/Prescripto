@@ -144,18 +144,18 @@ const Appointment = () => {
                 </div>
               ))}
           </div>
-           <div className="flex items-center gap-3 w-full overflow-x-scroll mt-4">
-          {
-            docSlots.length && docSlots[slotIndex].map((item,index) => (
-              <p className={`text-sm font-light flex-shrink-0 px-5 py-2 rounded-full cursor-pointer`} key={index}>
-                {item.time.toLowerCase()}
-              </p>
-            ))
-          }
+          <div className="flex gap-3 w-full overflow-x-auto whitespace-nowrap mt-4">
+            {docSlots.length > 0 &&
+              docSlots[slotIndex]?.map((item, index) => (
+                <p
+                  key={index}
+                  className="text-sm font-light flex-shrink-0 px-5 py-2 rounded-full cursor-pointer border"
+                >
+                  {item.time.toLowerCase()}
+                </p>
+              ))}
+          </div>
         </div>
-        </div>
-
-       
       </div>
     )
   );
