@@ -5,7 +5,7 @@ import { AppContext } from '../Context/AppContext'
 
 const TopDoctors = () => {
 
-  const navigate = useNavigate()
+  const navaigate = useNavigate()
   const {doctors} = useContext(AppContext)
   return (
     <div className='flex flex-col items-center gap-4 my-16 text-gray-900 md:mx-10'>
@@ -29,7 +29,7 @@ const TopDoctors = () => {
                 ))
             }
         </div>
-        <button onClick={() =>{ navigate('/doctors'); scrollTo(0,0)}} className='bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10 hover:translate-y-[-10px] transition-all duration-500 hover:bg-blue-300 cursor-pointer '>More</button>
+        <button onClick={() =>{ navaigate('/doctors'); scrollTo(0,0)}} className='bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10 hover:translate-y-[-10px] transition-all duration-500 hover:bg-blue-300 cursor-pointer '>More</button>
     </div>
   )
 }
