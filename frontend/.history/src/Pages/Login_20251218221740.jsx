@@ -29,7 +29,6 @@ const Login = () => {
           <p>Password</p>
           <input type="password" onChange={(e) => (e.target.name)} value={name} required/>
         </div>
-        <button>{state === 'Sign Up' ? 'Create account' : 'Login'}</button>
       </div>
     </form>
   );

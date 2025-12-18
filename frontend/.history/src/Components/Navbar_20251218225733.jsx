@@ -15,19 +15,19 @@ const Navbar = () => {
         <ul className='hidden md:flex items-start gap-5 font-medium'>
             <NavLink to={'/'}>
                 <li className='py-1  transition-all duration-500'>HOME</li>
-                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden' />
+                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden transition-all duration-500' />
             </NavLink>
             <NavLink to={'/doctors'} >
                 <li className='py-1  transition-all duration-500'>ALL DOCTORS</li>
-                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden' />
+                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden transition-all duration-500' />
             </NavLink>
             <NavLink to={'/about'} >
                 <li className='py-1  transition-all duration-500'>ABOUT</li>
-                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden' />
+                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden transition-all duration-500' />
             </NavLink>
             <NavLink to={'/contact'} >
                 <li className='py-1  transition-all duration-500'>CONTACT</li>
-                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden  ' />
+                <hr className='border-none outline-none h-0.5 bg-black w-3/5 m-auto hidden transition-all duration-500  ' />
             </NavLink>
         </ul>
         <div className='flex items-center gap-4'>
@@ -44,7 +44,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>:
-                <button onClick={() => navigate('/login')} className='cursor-pointer hover:scale-105 transition-all duration-500
+                <button onClick={() => navigate('/login')} className='cursor-pointer hover:scale-105 transition-all duration-300
                      hover:bg-[#1d24aa] hover:text-white bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block'>Create Account</button>
             }
             

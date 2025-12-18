@@ -18,18 +18,6 @@ const Login = () => {
         <p>
           Please {state === "Sign Up" ? "sign up" : "log in"} to book appointment
         </p>
-        <div>
-          <p>Full Name</p>
-          <input type="text" onChange={(e) => (e.target.name)} value={name} required/>
-        </div>
-        <div>
-          <p>Email</p>
-          <input type="email" onChange={(e) => (e.target.name)} value={name} required/>
-        </div><div>
-          <p>Password</p>
-          <input type="password" onChange={(e) => (e.target.name)} value={name} required/>
-        </div>
-        <button>{state === 'Sign Up' ? 'Create account' : 'Login'}</button>
       </div>
     </form>
   );

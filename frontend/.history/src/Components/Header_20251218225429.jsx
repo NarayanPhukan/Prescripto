@@ -28,7 +28,7 @@ const Header = () => {
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
           className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0
-                     hover:scale-105 transition-all duration-500
+                     hover:scale-105 transition-all duration-300
                      hover:bg-[#1d24aa] hover:text-white"
         >
           Book appointment
