@@ -25,7 +25,7 @@ const Doctors = () => {
       <p className="text-gray-600">Browse through the doctors specialist.</p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         {/* Change the container classes here */}
-        <div className="flex flex-row sm:flex-col gap-4 text-sm text-gray-600 overflow-x-auto w-full sm:w-auto pb-4 sm:pb-0 hide-scrollbar">
+        <div className="flex flex-row sm:flex-col gap-4 text-sm text-gray-600 overflow-x-scroll sm:overflow-y-auto pb-4 sm:pb-0 hide-scrollbar">
           <p
             onClick={() =>
               speciality === "General physician"
