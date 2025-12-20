@@ -25,16 +25,16 @@ const Doctors = () => {
       <p className="text-gray-600">Browse through the doctors specialist.</p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         {/* Change the container classes here */}
-        <div className="flex flex-row sm:flex-col gap-4 text-sm text-gray-600 overflow-x-scroll sm:overflow-y-auto pb-4 sm:pb-0 hide-scrollbar">
+        <div className="flex hover:scale-105 transition-all duration-500 flex-row sm:flex-col gap-4 text-sm text-gray-600 overflow-x-scroll sm:overflow-y-auto pb-4 sm:pb-0 hide-scrollbar">
           <p
             onClick={() =>
               speciality === "General physician"
                 ? navigate("/doctors")
                 : navigate("/doctors/General physician")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
+            className={`whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition cursor-pointer ${
               speciality === "General physician"
-                ? "bg-primary text-white"
+                ? "bg-indigo-100 text-black"
                 : ""
             }`}
           >
@@ -47,8 +47,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gynecologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Gynecologist" ? "bg-primary text-white" : ""
+            className={`whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition cursor-pointer ${
+              speciality === "Gynecologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
             Gynecologist
@@ -62,8 +62,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Dermatologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Dermatologist" ? "bg-primary text-white" : ""
+            className={`whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition cursor-pointer ${
+              speciality === "Dermatologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
             Dermatologist
@@ -75,8 +75,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Pediatricians")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Pediatricians" ? "bg-primary text-white" : ""
+            className={`whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition cursor-pointer ${
+              speciality === "Pediatricians" ? "bg-indigo-100 text-black" : ""
             }`}
           >
             Pediatricians
@@ -88,8 +88,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Neurologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white  whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Neurologist" ? "bg-primary text-white" : ""
+            className={`whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition cursor-pointer ${
+              speciality === "Neurologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
             Neurologist
@@ -101,9 +101,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gastroenterologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
+            className={`whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition cursor-pointer ${
               speciality === "Gastroenterologist"
-                ? "bg-primary text-white"
+                ? "bg-indigo-100 text-black"
                 : ""
             }`}
           >

@@ -32,9 +32,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/General physician")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
+            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded  cursor-pointer ${
               speciality === "General physician"
-                ? "bg-primary text-white"
+                ? "bg-primary text-black"
                 : ""
             }`}
           >
@@ -47,8 +47,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gynecologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Gynecologist" ? "bg-primary text-white" : ""
+            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded  cursor-pointer ${
+              speciality === "Gynecologist" ? "bg-primary text-black" : ""
             }`}
           >
             Gynecologist
@@ -62,8 +62,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Dermatologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Dermatologist" ? "bg-primary text-white" : ""
+            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded  cursor-pointer ${
+              speciality === "Dermatologist" ? "bg-primary text-black" : ""
             }`}
           >
             Dermatologist
@@ -75,8 +75,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Pediatricians")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Pediatricians" ? "bg-primary text-white" : ""
+            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded  cursor-pointer ${
+              speciality === "Pediatricians" ? "bg-primary text-black" : ""
             }`}
           >
             Pediatricians
@@ -88,8 +88,8 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Neurologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white  whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
-              speciality === "Neurologist" ? "bg-primary text-white" : ""
+            className={` hover:scale-105 transition-all duration-500 hover:text-black  whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded  cursor-pointer ${
+              speciality === "Neurologist" ? "bg-primary text-black" : ""
             }`}
           >
             Neurologist
@@ -101,9 +101,9 @@ const Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gastroenterologist")
             }
-            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
+            className={` hover:scale-105 transition-all duration-500 hover:bg-[#1d24aa] hover:text-white whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded  cursor-pointer ${
               speciality === "Gastroenterologist"
-                ? "bg-primary text-white"
+                ? "bg-primary text-black"
                 : ""
             }`}
           >
