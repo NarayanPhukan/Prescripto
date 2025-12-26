@@ -34,7 +34,7 @@ const Doctors = () => {
             }
             className={`  whitespace-nowrap sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded-xl  cursor-pointer ${
               speciality === "General physician"
-                ? "bg-[#0077b6] text-white"
+                ? "bg-[#2c41ff] text-white"
                 : ""
             }`}
           >
